@@ -119,6 +119,7 @@ ul {
 .contacts {
     display: flex;
     margin-left: auto;
+    
 }
 
 .site-nav .item:not(:last-child) {
@@ -158,6 +159,17 @@ ul {
     color: var(--title-text-color);
 
 }
+/* .contacts .item::before {
+    display: inline-block;
+    content: " ";
+    width: 16px;
+    height: 12px;
+    /* outline: 1px solid red; */
+    background-image: url(../images/envelope.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+} */
 
 .link.social {
     display: flex;
@@ -186,6 +198,14 @@ ul {
     padding-top: 200px;
     padding-bottom: 200px;
     background-color: var(--primary-bg-color);
+    max-width: 1600px;
+    background-image: url(../images/bgImg.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+.overlay {
+    
 
 }
 .hero-title {
@@ -243,6 +263,20 @@ ul {
     flex-basis: calc((100% - 90px)/4);
     
 }
+.features-list .item::before {
+    display: block;
+    content: " ";
+    height: 70px;
+    
+    margin-bottom: 30px;
+    /* outline: 1px solid red; */
+    background-image: url(../images/antena.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #F5F4FA;
+}
+
 .features-list .title {
     margin-top: 0;
     margin-bottom: 10px;
@@ -413,6 +447,7 @@ ul {
     letter-spacing: 0.06em;
     text-align: center;
 }
+
 .button-nav {
     display: flex;
     align-items: center;
