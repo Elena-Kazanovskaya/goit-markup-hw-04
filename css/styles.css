@@ -159,10 +159,19 @@ ul {
     color: var(--title-text-color);
 
 }
+.icon-mail {
+    fill: currentColor;
+    margin-right: 10px;
+}
 
+.icon-tel {
+    fill: currentColor;
+    margin-right: 10px;
+}
 
 .link.social {
     display: flex;
+    align-items: center;
 }
 
 .site-nav .link:focus,
@@ -176,6 +185,7 @@ ul {
 .contacts .link:focus,
 .contacts .link:hover {
     color: var(--accent-color);
+    fill: var(--accent-color);
 }
 
 .contacts .link.current {
@@ -189,7 +199,8 @@ ul {
     padding-bottom: 200px;
     
     max-width: 1600px;
-    background-image: url(../images/bgImg.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+     url(../images/bgImg.jpg);
     background-position: center;
     background-size: cover;
     background-color: var(--primary-bg-color);
@@ -341,6 +352,37 @@ ul {
     flex-basis: calc((100% - 90px)/4);
 }
 
+.client-list {
+    display: flex;
+    gap: 30px;
+}
+
+.link-icon {
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    fill:#AFB1B8;
+}
+
+.link-company {
+    display: flex;
+    align-items: center;
+}
+.icon-company {
+    display: flex;
+}
+
+.client-list .link-company:focus,
+.client-list .link-company:hover {
+    border: 1px solid var(--accent-color);
+    color: var(--accent-color);
+    fill: var(--accent-color);
+}
+.link-icon:focus,
+.link-icon:hover {
+    fill: var(--accent-color);
+}
 .employees {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -397,6 +439,7 @@ ul {
 .footer {
     display: inline-block;
     padding-top: 60px;
+    padding-right: 215px;
     padding-left: 215px;
     padding-bottom: 60px;
     margin-top: 0;
