@@ -206,10 +206,7 @@ ul {
     background-color: var(--primary-bg-color);
 
 }
-.overlay {
-    
 
-}
 .hero-title {
     margin-top: 0;
     margin-bottom: 30px;
@@ -306,7 +303,7 @@ ul {
 .card {
     margin-bottom: 0;
     background-color: var(--primary-white-color);
-    
+ 
 }
 
 .section-container {
@@ -340,6 +337,7 @@ ul {
 .team-list .card {
     flex-basis: calc((100% - 90px)/4);
 }
+
 
 .client-list {
     display: flex;
