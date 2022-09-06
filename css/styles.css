@@ -337,7 +337,7 @@ ul {
 .team-list .card {
     flex-basis: calc((100% - 90px)/4);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
+    /* border-radius: 0px 0px 4px 4px; */
 }
 
 .social-list {
@@ -516,22 +516,22 @@ ul {
     
 
 }
-.footer .social-list {
+/* .footer .social-list {
     display: flex;
     /* width: 206px;
     height: 80px; */
-    border: none;
+    /* border: none;
     margin-top: 12px;
-    margin-left: 70px;    
+    margin-left: 70px;     */
     /* margin-top: 12px;
     margin-right: 878px;
     margin-bottom: 100px;
     margin-left: 70px; */
-    justify-content: space-between;
+    /* justify-content: space-between;
 
-}
+} */ */
 
-.footer .social-link {
+/* .footer .social-link {
     display: flex;
     width: 44px;
     height: 44px;
@@ -540,13 +540,14 @@ ul {
     border-radius: 50%;
     background: rgba(255, 255, 255, 0.1);
     fill: #FFFFFF;
-}
+} */
 
  
 /* Button */
 .button {
     display: inline-block;
     border-radius: 4px;
+    
     padding: 10px 32px;
     min-width: 152px;
     text-align: center;
