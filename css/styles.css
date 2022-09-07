@@ -361,9 +361,8 @@ ul {
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    background: rgba(255, 255, 255, 0.1);
-    fill: #FFFFFF;
-
+    fill: #AFB1B8;
+    
 }
 .social-icon {
     display: block;
@@ -467,7 +466,7 @@ ul {
 .footer {
     display: flex;
     padding-top: 60px;
-    padding-right: 215px;
+    padding-right: 0px;
     padding-left: 215px;
     padding-bottom: 60px;
     margin-top: 0;
@@ -476,9 +475,24 @@ ul {
  
 }
 
-.address-footer {
-    margin-top: 0;
+.footer-container {
+    display: flex;
+    align-items: baseline;
 }
+.address-footer {
+    display: block;
+    width: 231px;
+    
+}
+
+.social-footer {
+    width: 206px;
+    margin-top: 12px;
+    margin-left: 70px;
+}
+/* .address-footer {
+    margin-top: 0;
+} */
 .address-list {
     display: inline-block;
     margin-top: 20px;   
@@ -504,8 +518,8 @@ ul {
 .address-list .item:not(:last-child) {
     margin-bottom: 9px;
 }
- .social.title {
-    margin-top: 12px;
+.social.title {
+    /* margin-top: 12px; */
     /* margin-bottom: 10px; */
     color: var(--primary-white-color);
     font-weight: 700;
@@ -516,31 +530,35 @@ ul {
     
 
 }
-/* .footer .social-list {
+.footer .social-list {
     display: flex;
-    /* width: 206px;
-    height: 80px; */
-    /* border: none;
-    margin-top: 12px;
-    margin-left: 70px;     */
-    /* margin-top: 12px;
-    margin-right: 878px;
-    margin-bottom: 100px;
-    margin-left: 70px; */
-    /* justify-content: space-between;
+    width: 206px;
+    height: 44px; 
+    justify-content: space-between; 
+    margin-left: auto;
+    margin-right: auto;
 
-} */ */
+}  
 
-/* .footer .social-link {
-    display: flex;
+.footer .social-link {
+    display: block;
     width: 44px;
     height: 44px;
-    justify-content: center;
-    align-items: center;
+    padding: 12px;
+    margin-top: 20px;
+    /* justify-content: center;
+    align-items: center; */
     border-radius: 50%;
     background: rgba(255, 255, 255, 0.1);
     fill: #FFFFFF;
-} */
+}
+.footer .social-link:hover,
+.footer .social-link:focus {
+    border-radius: 50%;
+    background-color: var(--accent-color);
+    /* fill: var(--primary-white-color);
+    color: var(--primary-white-color); */
+}
 
  
 /* Button */
