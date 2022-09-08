@@ -357,7 +357,7 @@ ul {
     align-items: center;
     border-radius: 50%;
     fill: #AFB1B8;
-    
+}   
 
 /* .social-icon {
     display: flex;
@@ -371,6 +371,7 @@ ul {
     fill: var(--primary-white-color);
     color: var(--primary-white-color);
 }
+
 .client-list {
     display: flex;
     gap: 30px;
