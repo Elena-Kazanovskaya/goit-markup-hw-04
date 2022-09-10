@@ -194,7 +194,7 @@ ul {
     text-align: center;
     padding-top: 200px;
     padding-bottom: 200px;
-    
+    margin: 0 auto;
     max-width: 1600px;
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
      url(../images/bgImg.jpg);
@@ -264,7 +264,6 @@ ul {
     justify-content: center;
     align-items: center;
 
-    width: 270px;
     height: 120px;
     
     margin-bottom: 30px;
@@ -332,19 +331,22 @@ ul {
 .team-list .card {
     flex-basis: calc((100% - 90px)/4);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    /* border-radius: 0px 0px 4px 4px; */
+    border-radius: 0px 0px 4px 4px;
 }
 
 .social-list {
     display: flex;
     
     border: none;
+    margin-right: 32px;
+    margin-bottom: 30px;
+    margin-left: 32px;
     /* width: 206px;
     height: 44px; */
-    padding-top: 16px;
+    /* padding-top: 16px;
     padding-right: 32px;
     padding-bottom: 30px;
-    padding-left: 32px;
+    padding-left: 32px; */
     justify-content: space-between;
   
 }
@@ -378,17 +380,20 @@ ul {
 }
 
 .link-icon {
-    width: 170px;
-    height: 92px;
-    border: 1px solid #AFB1B8;
-    border-radius: 4px;
+    
     fill:#AFB1B8;
 }
 
 .link-company {
     display: flex;
     align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
 }
+
 .icon-company {
     display: flex;
 }
@@ -401,6 +406,7 @@ ul {
 }
 .link-icon:focus,
 .link-icon:hover {
+    
     fill: var(--accent-color);
 }
 .employees {
@@ -413,7 +419,7 @@ ul {
 }
 .employees .text {
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 16px;
 }
 
 /* Examples */
@@ -423,6 +429,10 @@ ul {
     flex-wrap: wrap;
     gap: 30px;
 
+}
+
+.work-list a {
+    display: block;
 }
 .work-list .title {
     margin-bottom: 4px;
@@ -452,9 +462,10 @@ ul {
 .work-list .card {
     flex-basis: calc((100% - 60px)/3);
 }
-.work-list .card:hover {
+.work-list a:hover {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
+
 
 .work-list>.card:nth-last-child(-n+3) {
     margin-bottom: 0;
@@ -481,7 +492,8 @@ ul {
 }
 
 .social-footer {
-    width: 206px;
+    /* display: flex; */
+    /* width: 206px; */
     margin-top: 12px;
     margin-left: 70px;
 }
@@ -531,6 +543,7 @@ ul {
     width: 206px;
     height: 44px; 
     margin-top: 20px;
+    margin-left: 0;
     margin-bottom: 16px;
     padding: 0;
     justify-content: space-between; 
